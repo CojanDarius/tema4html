@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <p><b>Completati campurile de mai jos cu informatiile dumneavoastra</b></p>
+    <form>
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"><br>
+        <label for="phone">Phone number:</label>
+        <input type="tel" id="phone" name="phone"><br>
+        <label for="email">Email adress:</label>
+        <input type="email" id="email" name="email"><br>
+        <label for="homepage">Facebook profile:</label>
+        <input type="url" id="homepage" name="homepage"><br>
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" min="12" max="99" step="1" value="12"><br>
+        <label for="birthday">Birthday</label>
+        <input type="date" id="birthday" name="birthday"><br>
+        <label for="tday">Today's date</label>
+        <input type="month" id="tday" name="tday"><br>
+        <label for="fcolor">Favorite color:</label>
+        <input type="color" id="fcolor" name="fcolor"><br>
+        <input type="submit" value="Trimite"><br>
+        <input type="reset" value="Sterge">
+    </form>
+    <p><b>Selectati raspunsurile de mai jos</b></p>
+    <p>Localitatea natala:</p>
+    <form>
+       <input type="radio" id="loc" name="loc" value="Oradea">
+       <label for="loc">Oradea</label><br>
+       <input type="radio" id="loc" name="loc" value="Cluj-Napoca">
+       <label for="loc">Cluj-Napoca</label><br>
+       <input type="radio" id="loc" name="loc" value="Bucuresti">
+       <label for="loc">Bucuresti</label>
+    </form>
+    <p>Gen:</p>
+    <form>
+        <input type="radio" id="gen" name="gen" value="Masculin">
+        <label for="gen">Masculin</label><br>
+        <input type="radio" id="gen" name="gen" value="Feminin">
+        <label for="gen">Feminin</label><br>
+        <input type="radio" id="gen" name="gen" value="Altul">
+        <label for="gen">Altul</label><br>
+        <p>Sunt:</p>
+        <input type="radio" id="varsta" name="varsta" value="Major">
+        <label for="varsta">Major</label><br>
+        <input type="radio" id="varsta" name="varsta" value="Minor">
+        <label for="varsta">Minor</label><br>
+        <p>Care mijloc de transport il folosesti?</p>
+        <input type="checkbox" id="train" name="transport" value="Trenul">
+        <label for="train">Trenul</label><br>
+        <input type="checkbox" id="car" name="transport" value="Masina">
+        <lable for="car">Masina</lable><br>
+        <input type="checkbox" id="bus" name="transport" value="Transport in comun">
+        <label for="bus">Transport in comun</label><br>
+        <input type="checkbox" id="walk" name="transport" value="Mersul pe jos">
+        <label for="walk">Mersul pe jos</label><br>
+        <input type="submit" value="Trimite">
+    </form>
+    <form>
+        <p>Spune-ne cateva cuvinte despre tine:</p>
+        <textarea id="me" name="me" row="10" cols="40"
+        placeholder="Nu fi timid"></textarea><br>
+        <input type="submit" value="Trimite">
+        <input type="reset" value="Sterge">
+    </form>
+</html>
